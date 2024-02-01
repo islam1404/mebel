@@ -1,0 +1,43 @@
+.room{
+    &__bonus{
+        &-head{
+            display: flex;
+            justify-content: space-between;
+            div{
+                display: flex;
+                column-gap: 20px;
+            }
+        }
+        &-title{
+            color: var(--text-color, #414141);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+        &-count{
+            color: var(--text-color, #414141);
+font-family: Roboto , sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+span{
+    color: #245462;
+    font-family: Roboto , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+        }
+        &-return{
+            background: #f8f8f8;
+            padding: 19px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;  
+        }
+    }
+}
